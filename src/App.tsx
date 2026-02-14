@@ -140,7 +140,7 @@ export default function App(): JSX.Element {
           </section>
 
      
-          <section className="rounded-2xl border border-white/10 bg-white/5 p-5 lg:col-span-2 h-[500px] overflow-auto">
+          <section className="rounded-2xl border border-white/10 bg-white/5 p-5 lg:col-span-2 max-h-[500px] overflow-auto">
             <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <h2 className="text-lg font-semibold text-slate-100">Tasks</h2>
               <TaskFilters value={filter} onChange={setFilter} />
